@@ -1,0 +1,44 @@
+header{
+  height: 10vh;
+  display: table;
+  background-color: $colorPrimario;
+  .search-input-wrap{
+    width: 100%;
+    padding: 0 30px;
+    display: table-cell;
+    vertical-align: middle;
+    .header-search{
+      float: left;
+      width: 1.3rem;
+      margin-top: 7px;
+      margin-right: 5px;
+    }
+    .material-icons{
+      float: left;
+      margin-right: 5px;
+      margin-top: 3px;
+      font-size: 1.7rem;
+      color: $colorPrimario;
+    }
+    input{
+      border-radius: 8px;
+      border: 0px solid  $colorSecundario;
+      font-size: 0.8rem;
+      padding: 0.5% 1.5%;
+      outline: none;
+      float: left;
+      color: $colorTextos;
+    }
+    .filter-wrap{
+      cursor: pointer;
+      .filter{
+        float: right;
+        margin-top: 7px;
+        font-weight: 700;
+      }
+      .filter-icon{
+        float: right;
+      }
+    }
+  }
+}

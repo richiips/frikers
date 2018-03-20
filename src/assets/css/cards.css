@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #393939; }
+
+h2 {
+  font-size: 0.8rem; }
+
+h3 {
+  font-size: 1rem; }
+
+h5 {
+  color: #393939;
+  font-weight: 700; }
+
+p {
+  font-size: 0.8rem;
+  color: #8E8E8E; }
+
+.login-button-signin, .login-forgot-pass, .login-create-account, .registro-button-next, .sidebar-option-h, a, .carta-producto-wrap, .carta-new, .card {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+
+.container-card {
+  padding-right: 0;
+  padding-left: 0;
+  display: inline-block;
+  margin-bottom: 50px; }
+  .container-card .card-slider {
+    background-color: #E9E1F5;
+    height: 350px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    border-radius: 8px; }
+  .container-card .card-category-tittle {
+    margin-bottom: 35px;
+    border-bottom: 1px solid #F4F2FD; }
+  .container-card .card-columns {
+    padding-right: 0;
+    padding-left: 0; }
+    .container-card .card-columns .card {
+      border: none;
+      padding: 0.5rem;
+      margin-bottom: 3rem;
+      border-radius: 8px;
+      cursor: pointer; }
+      .container-card .card-columns .card:hover {
+        background-color: #F4F2FD; }
+      .container-card .card-columns .card .card-img-top {
+        background-color: #E9E1F5;
+        border-radius: 8px; }
+      .container-card .card-columns .card .card-body {
+        padding: 1.25rem 0rem; }
+        .container-card .card-columns .card .card-body .card-text .material-icons {
+          font-size: 1.2rem;
+          float: left;
+          color: #393939;
+          margin-right: 0.2rem; }
+        .container-card .card-columns .card .card-body .card-text small {
+          color: #393939; }
+          .container-card .card-columns .card .card-body .card-text small .card-favorite {
+            float: left; }
+          .container-card .card-columns .card .card-body .card-text small .card-autor {
+            color: #5e539c;
+            font-weight: 700; }
+
+/*# sourceMappingURL=cards.css.map */

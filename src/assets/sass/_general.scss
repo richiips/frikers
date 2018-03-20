@@ -1,0 +1,54 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+//Variables
+//Colores
+$colorCorporativo: #5e539c;
+$colorCorporativoH: #553884;
+
+$colorPrimario: #F4EDFF;
+
+$colorSecundario: #E9E1F5;
+$colorSecundarioH: #F4F2FD;
+
+$colorTerciario: #FFFFFF;
+
+$colorHoverSidebar: #493E88;
+
+$colorh5: #393939;
+$colorTextos: #3D3D3D;
+$colorParrafos: #8E8E8E;
+
+$colorSuccess: #13ce66;
+$colorSuccessH: #13bd5e;
+
+//Tamaños de textos
+h1{
+  font-size: 2rem;
+  font-weight: 700;
+  color: $colorh5;
+}
+h2{
+  font-size: 0.8rem;
+}
+h3{font-size: 1rem;
+}
+h5{
+  color: $colorh5;
+  font-weight: 700;
+}
+p{
+  font-size: 0.8rem;
+  color: $colorParrafos;
+}
+
+//Transiciones
+.login-button-signin, .login-forgot-pass, .login-create-account, .registro-button-next, .sidebar-option-h, a, .carta-producto-wrap, .carta-new, .card{
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}

@@ -1,0 +1,58 @@
+@import 'general';
+
+.container-card{
+  padding-right: 0;
+  padding-left: 0;
+  display: inline-block;
+  margin-bottom: 50px;
+  .card-slider{
+    background-color: $colorSecundario;
+    height: 350px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    border-radius: 8px;
+  }
+  .card-category-tittle{
+    margin-bottom: 35px;
+    border-bottom: 1px solid $colorSecundarioH;
+  }
+  .card-columns{
+    padding-right: 0;
+    padding-left: 0;
+    .card{
+      border: none;
+      padding: 0.5rem;
+      margin-bottom: 3rem;
+      border-radius: 8px;
+      cursor: pointer;
+      &:hover{
+        background-color: $colorSecundarioH;
+      }
+      .card-img-top{
+        background-color: $colorSecundario;
+        border-radius: 8px;
+      }
+      .card-body{
+        padding: 1.25rem 0rem;
+        .card-text{
+          .material-icons{
+            font-size: 1.2rem;
+            float: left;
+            color: $colorh5;
+            margin-right: 0.2rem;
+          }
+          small{
+            color: $colorh5;
+            .card-favorite{
+              float: left;
+            }
+            .card-autor{
+              color: $colorCorporativo;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}

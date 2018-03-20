@@ -1,0 +1,59 @@
+@import 'general';
+@import 'header';
+
+.sidebar{
+  height: 100vh;
+  position: fixed;
+  background-color: $colorCorporativo;
+  .dashboard-logo{
+    margin-top: 15%;
+  }
+  .sidebar-profile{
+    margin-top: 20%;
+    .sidebar-profile-pic{
+      width: 25%;
+      border-radius: 50%;
+    }
+    .sidebar-profile-name{
+      color: $colorTerciario;
+      text-align: left;
+      margin-left: 10px;
+      display: inline-block;
+      font-weight: 700;
+    }
+  }
+  .sidebar-section-container{
+    margin-top: 20%;
+    .sidebar-tittle{
+      color: $colorTerciario;
+      margin-bottom: 10%;
+    }
+    .sidebar-option-h{
+      display: block;
+      margin-bottom: 6%;
+      &:focus{
+        background-color: $colorHoverSidebar;
+        border-radius: 25px;
+      }
+      &:hover{
+        background-color: $colorHoverSidebar;
+        border-radius: 25px;
+      }
+      .sidebar-icon{
+        display: inline-block;
+        width: 13%;
+        margin-bottom: 1%;
+      }
+      .sidebar-option{
+        display: inline-block;
+        color: $colorTerciario;
+        margin-left: 10px;
+      }
+      .material-icons{
+        color: $colorTerciario;
+        display: inline-block;
+        float: left;
+      }
+    }
+  }
+}
